@@ -61,9 +61,7 @@ const About = () => {
               <div className="profile-head">
                 <h5 className="mb-3">{userData.name}</h5>
                 <h6 style={{ color: "#3E77F1" }}>{userData.work}</h6>
-                <p className="profile-rating mt-3 ">
-                  RANK : <span>1/10</span>
-                </p>
+
                 <NavLink to="/edit">
                   <input
                     type="submit"

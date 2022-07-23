@@ -83,7 +83,8 @@
   height: 100%;
 }
 
-.contact-info {
+.contact-info,
+.footer-div {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -119,7 +120,7 @@
   justify-content: center;
   align-items: center;
   background-color: #ffeaec;
-  height: 90vh;
+  height: 77vh;
   text-align: center;
 }
 .home-div {
@@ -208,4 +209,17 @@
   background-color: #3e77f1;
   color: whitesmoke;
   border-radius: 50px;
+}
+
+.footer-div {
+  background-color: #0a122a;
+  color: whitesmoke;
+  text-align: center;
+  height: 12vh;
+}
+.footer-div h1 {
+  font-size: 1rem;
+}
+.heart {
+  color: #f61067;
 }

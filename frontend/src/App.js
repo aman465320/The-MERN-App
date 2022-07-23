@@ -10,6 +10,7 @@ import Login from "./components/Login";
 import Signup from "./components/Signup";
 import Error from "./components/Error";
 import Logout from "./components/Logout";
+import Footer from "./components/Footer";
 import { initialState, reducer } from "../src/reducer/UseReducer";
 export const UserContext = createContext();
 

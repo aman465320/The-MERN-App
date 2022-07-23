@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useContext } from "react";
 import { UserContext } from "../App";
+import Footer from "../components/Footer";
 import "bootstrap/dist/css/bootstrap.css";
 const Home = () => {
   const { state, dispatch } = useContext(UserContext);
@@ -38,6 +39,7 @@ const Home = () => {
           </h1>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
