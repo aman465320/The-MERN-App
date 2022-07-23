@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-collapse ul li {
+  font-weight: 500;
+}
+
+.logo-container img {
+  width: 60px;
+  height: 100%;
+  background-color: transparent;
+}
+.dummy {
+  color: yellowgreen;
+}
+
+.signup-container,
+.signup-image,
+.profile-pic,
+.not-found,
+.notfound-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-content {
+  width: 70%;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+.form-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-input {
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: black;
+  width: 100%;
+}
+
+.form-title,
+.contact-form-title {
+  font-weight: bolder;
+  font-family: "Bree Serif", serif;
+}
+.form-submit {
+  background-color: rgb(62, 119, 241);
+  color: white;
+  border-radius: 5px;
+  padding: 8px 15px;
+  border: 0px;
+}
+
+.signup-image-link {
+  text-decoration: none;
+  color: black;
+}
+.login-redirect {
+  color: rgb(62, 119, 241);
+  text-decoration: underline;
+}
+
+.form-group label {
+  font-size: 1.15rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+.contact-info-icon {
+  font-size: 1.5rem;
+}
+
+.contact-form-content {
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+.fa-solid {
+  color: rgb(62, 119, 241);
+}
+
+.home-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffeaec;
+  height: 90vh;
+  text-align: center;
+}
+.home-div {
+  text-align: center;
+}
+.home-page-title {
+  font-weight: bolder;
+  color: rgb(50, 50, 238);
+  font-size: 1.2rem;
+  font-family: "Bree Serif", serif;
+}
+
+.home-page-info {
+  font-weight: bolder;
+  font-size: 3rem;
+  font-family: "Bree Serif", serif;
+}
+
+.user-profile {
+  height: 90vh;
+}
+.profile-form {
+  width: 75%;
+  flex-wrap: wrap;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+.profile-work a {
+  text-decoration: none;
+  color: #3e77f1;
+}
+
+.profile-edit-btn {
+  border: 0;
+  padding: 3px 13px;
+  border-radius: 6px;
+  background-color: #832161;
+  color: whitesmoke;
+}
+
+.profile-head h5,
+.profile-work p {
+  font-weight: bold;
+  font-family: "Bree Serif", serif;
+  font-size: 1.5rem;
+}
+
+.label-2 {
+  color: #3e77f1;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+.label-1 {
+  font-family: "Bree Serif", serif;
+}
+
+.profile-head {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link {
+  font-weight: bold;
+}
+
+.not-found {
+  height: 90vh;
+  text-align: center;
+}
+
+.notfound-inner h1,
+.notfound-inner h2 {
+  font-family: "Bree Serif", serif;
+  font-weight: bold;
+}
+
+.return-to-homepage {
+  text-decoration: none;
+  background-color: #3e77f1;
+  color: whitesmoke;
+  border-radius: 50px;
+}
